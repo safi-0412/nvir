@@ -1,0 +1,78 @@
+.body{
+    background-color: black;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .box{
+        width: 300px;
+        background-color: blue;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .body{
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .box{
+        width: 300px;
+        background-color: black;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .body{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .box{
+        width: 300px;
+        background-color: rgb(187, 86, 103);
+        margin-top: 50px;
+        align-items: 
+        center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .body{
+        background-color: purple;
+    }
+}
